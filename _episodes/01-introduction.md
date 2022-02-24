@@ -182,30 +182,30 @@ $ pwd
 Let's download our data, enter the following command to obtain data for this workshop
 
 ~~~
-curl -O https://github.com/rahm0054/shell-genomics/blob/1ad28448ecf7a6f5259c12a7758662137db5139b/data/shell_data.tar.gz
+wget https://github.com/rahm0054/shell-genomics/raw/gh-pages/data/shell_data.tar.gz
 ~~~
 
 Let's look at how our file system is organized. We can see what files and subdirectories are in this directory by running `ls`,
 which stands for "listing":
-~~~
-$ ls
-~~~
-{: .bash}
 
-~~~
-shell_data.tar.gz
-~~~
-{: .output}
 
 `ls` prints the names of the files and directories in the current directory in
 alphabetical order,
 arranged neatly into columns. 
 
+~~~
+$ ls
+~~~
+{: .bash}
 
-Notice that `shell_data `has a `.tar.gz` ending, this means the file is compressed (many files compressed into a single file)
+We should have the shell_data file now
 ~~~
 shell_data.tar.gz
 ~~~
+{: .output}
+
+
+Notice that `shell_data `has a `.tar.gz` ending, this means the file is compressed (many files compressed into a single file)
 
 We'll need to uncompress the file, so enter the following:
 ~~~
@@ -217,10 +217,14 @@ tar -xzvf shell_data.tar.gz
 -f: Allows you to specify the filename of the archive.
 
 We'll be working within the `shell_data` subdirectory, and creating new subdirectories, throughout this workshop.  
-
 Type `ls` again, hopefully you will see the following folder appear now:
 ~~~
 shell_data
+~~~
+
+Let's delete the original `shell_data.tar.gz` file to save space. To delete a fiile you use the command `rm`
+~~~
+rm shell_data.tar.gz
 ~~~
 
 The command to change locations in our file system is `cd`, followed by a
