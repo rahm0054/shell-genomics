@@ -174,7 +174,7 @@ $ pwd
 {: .bash}
 
 ~~~
-/home/dcuser
+/afs/umbc.edu/users/r/a/rahm0054/home
 ~~~
 {: .output}
 
