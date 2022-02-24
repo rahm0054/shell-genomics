@@ -59,7 +59,7 @@ We will also be using several bioinformatic packages in later lessons and instal
 ## How to access the remote server
 
 You can log-in to the remote server using the instructions 
-[here](http://www.datacarpentry.org/cloud-genomics/02-logging-onto-cloud/#logging-onto-a-cloud-instance). 
+[here](https://github.com/rahm0054/shell-genomics/blob/277df1d3ae543177bff1d70685595c0607c50083/files/accessing_gl.pdf). 
 Your instructor will supply to you the `ip_address` and password that you need to login.
 
 Each of you will have a different `ip_address`. This will 
@@ -69,29 +69,29 @@ exercises. The password will be the same for everyone.
 After logging in, you will see a screen showing something like this: 
 
 ~~~
-Welcome to Ubuntu 14.04.3 LTS (GNU/Linux 3.13.0-48-generic x86_64)
+(base) Nanditas-MacBook-Pro:~ nanditarahman$ ssh rahm0054@gl.umbc.edu
+WARNING: UNAUTHORIZED ACCESS to this computer is in violation of Criminal Law
+         Article section 8-606 and 7-302 of the Annotated Code of MD.
 
- * Documentation:  https://help.ubuntu.com/
+NOTICE:  This system is for the use of authorized users only. Individuals using
+         this computer system without authority, or in excess of their 
+         authority, are subject to having all of their activities on this system
+         monitored and recorded by system personnel.
 
-  System information as of Sat Feb  2 00:08:17 UTC 2019
+rahm0054@gl.umbc.edu's password: 
 
-  System load: 0.0                Memory usage: 5%   Processes:       82
-  Usage of /:  29.9% of 98.30GB   Swap usage:   0%   Users logged in: 0
+UMBC Division of Information Technology                    http://doit.umbc.edu/
+--------------------------------------------------------------------------------
+If you have any questions or problems regarding these systems, please call the
+DoIT Technology Support Center at 410-455-3838, or submit your request on the
+web by visiting http://my.umbc.edu/help/request
 
-  Graph this data and manage this system at:
-    https://landscape.canonical.com/
+Remember that the Division of Information Technology will never ask for your
+password. Do NOT give out this information under any circumstances.
+--------------------------------------------------------------------------------
 
-  Get cloud support with Ubuntu Advantage Cloud Guest:
-    http://www.ubuntu.com/business/services/cloud
-
-597 packages can be updated.
-444 updates are security updates.
-
-New release '16.04.5 LTS' available.
-Run 'do-release-upgrade' to upgrade to it.
-
-
-Last login: Fri Feb  1 22:34:53 2019 from c-73-116-43-163.hsd1.ca.comcast.net
+Last login: Wed Feb 23 01:48:46 2022 from 100.15.199.143
+[rahm0054@linux2 ~]
 ~~~
 {: .output}
 
@@ -165,7 +165,7 @@ i.e.,
 the directory that the computer assumes we want to run commands in,
 unless we explicitly specify something else.
 Here,
-the computer's response is `/home/dcuser`,
+the computer's response is `/afs/umbc.edu/users/r/a/rahm0054/home`,
 which is the top level directory within our cloud system:
 
 ~~~
