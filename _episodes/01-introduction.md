@@ -60,12 +60,6 @@ We will also be using several bioinformatic packages in later lessons and instal
 
 You can log-in to the remote server using the instructions 
 [here](https://github.com/rahm0054/shell-genomics/blob/277df1d3ae543177bff1d70685595c0607c50083/files/accessing_gl.pdf). 
-Your instructor will supply to you the `ip_address` and password that you need to login.
-
-Each of you will have a different `ip_address`. This will 
-prevent us from accidentally changing each other's files as we work through the
-exercises. The password will be the same for everyone. 
-
 After logging in, you will see a screen showing something like this: 
 
 ~~~
