@@ -75,4 +75,4 @@ highlighter: false
 
 remote_theme: carpentries/carpentries-theme
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-modernist
