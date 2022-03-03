@@ -66,7 +66,7 @@ SRR097977.fastq
 
 lists only the file that ends with `977.fastq`.
 
-This command (NOTE THERE IS NO SPACE BETWEEN * and the .sh:
+This command (NOTE THERE IS NO SPACE BETWEEN * and the .sh)
 
 ~~~
 $ ls /usr/bin/*.sh
