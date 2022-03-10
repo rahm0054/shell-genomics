@@ -1,4 +1,3 @@
-
 ---
 title: "Writing Scripts and Working with Data"
 teaching: 20
